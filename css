@@ -1,0 +1,989 @@
+.logo {
+
+    position: absolute;
+    left: 47.64%;
+    right: 36.67%;
+    top: 1.76%;
+    bottom: 26.59%;
+
+}
+
+
+
+
+a {
+
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #AE7C78;
+}
+
+
+.menu {
+
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+
+}
+
+
+.visually-hidden {
+
+    position: absolute;
+    clip: rect(0 0 0 0);
+}
+
+
+
+.bouquet {
+    position: absolute;
+    width: 384px;
+    height: 118px;
+    left: 120px;
+    top: 130px;
+
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 59px;
+
+    color: #AE7C78;
+}
+
+.italic {
+
+    font-style: italic;
+
+}
+
+
+.original {
+    position: absolute;
+    width: 384px;
+    height: 58px;
+    left: 120px;
+    top: 313px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #AE7C78;
+}
+
+.button {
+    position: absolute;
+    width: 146px;
+    height: 20px;
+    left: 190px;
+    top: 465px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background-color: #AE7C78;
+
+}
+
+.before-sending {
+    position: absolute;
+    width: 386px;
+    height: 404px;
+    left: 38%;
+    top: 230px;
+    border-radius: 10px;
+}
+
+
+.ready-bouqet {
+
+    position: absolute;
+    width: 387px;
+    height: 420px;
+    left: 70%;
+    top: 172px;
+}
+
+.fast-delivery {
+    position: absolute;
+    width: 152px;
+    height: 20px;
+    left: 222px;
+    top: 682px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #AE7C78;
+}
+
+.craft-bouquet {
+    position: absolute;
+    width: 285px;
+    height: 40px;
+    left: 180px;
+    top: 710px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #AE7C78;
+}
+
+.fresh-flower {
+    position: absolute;
+    width: 182px;
+    height: 20px;
+    left: 628px;
+    top: 682px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #AE7C78;
+}
+
+.florists {
+    position: absolute;
+    width: 182px;
+    height: 20px;
+    left: 590px;
+    top: 710px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #AE7C78;
+}
+
+.photo-send {
+    position: absolute;
+    width: 213px;
+    height: 20px;
+    left: 1035px;
+    top: 682px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #AE7C78;
+}
+
+.bouqet-photo {
+    position: absolute;
+    width: 285px;
+    height: 60px;
+    left: 995px;
+    top: 710px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #AE7C78;
+}
+
+.popular-bouquet {
+    position: absolute;
+    width: 371px;
+    height: 48px;
+    left: 540px;
+    top: 870px;
+
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+
+    color: #AE7C78;
+}
+
+
+.tenderness {
+    position: absolute;
+    width: 228px;
+    height: 29px;
+    left: 323px;
+    top: 981px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #AE7C78;
+}
+
+.elegant-bouqet {
+    position: absolute;
+    width: 387px;
+    height: 40px;
+    left: 323px;
+    top: 1030px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #AE7C78;
+}
+
+.bouqet-size {
+    position: absolute;
+    width: 85px;
+    height: 20px;
+    left: 324px;
+    top: 1094px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #AE7C78;
+}
+
+.bouqet-price {
+    position: absolute;
+    width: 85px;
+    height: 20px;
+    left: 324px;
+    top: 1094px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #AE7C78;
+}
+
+.order {
+    position: absolute;
+    width: 73px;
+    height: 20px;
+    left: 429px;
+    top: 1261px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background-color: #AE7C78;
+}
+
+
+.back {
+    position: absolute;
+    width: 50px;
+    height: 0px;
+    left: 800px;
+    top: 1416px;
+}
+
+.forward {
+    position: absolute;
+    width: 50px;
+    height: 0px;
+    left: 900px;
+    top: 1416px;
+}
+
+
+.tender-bouqet {
+    position: absolute;
+    width: 387px;
+    height: 438px;
+    left: 730px;
+    top: 954px;
+}
+
+.bouquet-assortment {
+
+    list-style: none;
+}
+
+
+.wedding-bouqet {
+    position: absolute;
+    width: 343px;
+    height: 48px;
+    left: 142px;
+    top: 1670px;
+
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: black;
+}
+
+
+.bride-bouqet {
+    position: absolute;
+    width: 155px;
+    height: 20px;
+    left: 237px;
+    top: 1735px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: black;
+}
+
+.peonies {
+    position: absolute;
+    width: 337px;
+    height: 48px;
+    left: 552px;
+    top: 1679px;
+
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: black;
+}
+
+
+.season-peonies {
+    position: absolute;
+    width: 252px;
+    height: 20px;
+    left: 594px;
+    top: 1745px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: black;
+}
+
+
+.bouqet-select {
+    position: absolute;
+    width: 273px;
+    height: 48px;
+    left: 990px;
+    top: 1679px;
+
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: black;
+}
+
+.assortment {
+    position: absolute;
+    width: 194px;
+    height: 20px;
+    left: 1030px;
+    top: 1745px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: black;
+}
+
+
+.discount-first {
+    position: absolute;
+    width: 488px;
+    height: 118px;
+    left: 222px;
+    top: 2058px;
+
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 59px;
+    letter-spacing: 0.02em;
+}
+
+
+.first-order {
+    position: absolute;
+    width: 387px;
+    height: 145px;
+    left: 222px;
+    top: 2200px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+
+.beautiful-bouqet {
+    position: absolute;
+    width: 590px;
+    height: 391px;
+    left: 730px;
+    top: 2018px;
+    border-radius: 0px;
+}
+
+
+.four-steps {
+    position: absolute;
+    width: 509px;
+    height: 48px;
+    left: 465px;
+    top: 2489px;
+
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+    color: #AE7C78;
+}
+
+
+.booking {
+    position: absolute;
+    width: 48px;
+    height: 20px;
+    left: 239px;
+    top: 2634px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #AE7C78;
+}
+
+.booking-select {
+    position: absolute;
+    width: 285px;
+    height: 40px;
+    left: 120px;
+    top: 2662px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #AE7C78;
+}
+
+.details-clarify {
+
+    position: absolute;
+    width: 165px;
+    height: 20px;
+    left: 485px;
+    top: 2633px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #AE7C78;
+}
+
+.florist-call {
+    position: absolute;
+    width: 285px;
+    height: 60px;
+    left: 425px;
+    top: 2661px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #AE7C78;
+}
+
+.payment {
+    position: absolute;
+    width: 62px;
+    height: 20px;
+    left: 842px;
+    top: 2633px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #AE7C78;
+}
+
+.order-pay {
+    position: absolute;
+    width: 285px;
+    height: 40px;
+    left: 730px;
+    top: 2661px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #AE7C78;
+}
+
+.courier {
+    position: absolute;
+    width: 78px;
+    height: 20px;
+    left: 1139px;
+    top: 2633px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #AE7C78;
+}
+
+.courier-call {
+    position: absolute;
+    width: 285px;
+    height: 60px;
+    left: 1035px;
+    top: 2661px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #AE7C78;
+}
+
+.order-steps {
+    list-style: none;
+}
+
+
+.follow-news {
+    position: absolute;
+    width: 487px;
+    height: 96px;
+    left: 120px;
+    top: 2871px;
+
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+    color: #AE7C78;
+}
+
+
+.subscribe {
+    position: absolute;
+    width: 387px;
+    height: 87px;
+    left: 120px;
+    top: 3007px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #AE7C78;
+}
+
+
+.samantha {
+    position: absolute;
+    width: 285px;
+    height: 220px;
+    left: 628px;
+    top: 2801px;
+}
+
+
+.insang {
+    position: absolute;
+    width: 285px;
+    height: 220px;
+    left: 628px;
+    top: 3041px;
+}
+
+.demi-he {
+    position: absolute;
+    width: 387px;
+    height: 460px;
+    left: 933px;
+    top: 2801px;
+}
+
+.social-media {
+    list-style: none;
+    position: absolute;
+    width: 96.76px;
+    height: 20px;
+    left: 120px;
+    top: 3134px;
+}
+
+
+.comments {
+    position: absolute;
+    width: 152px;
+    height: 48px;
+    left: 644px;
+    top: 3381px;
+
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #AE7C78;
+}
+
+
+.liked {
+    position: absolute;
+    width: 300px;
+    height: 80px;
+    left: 164px;
+    top: 3470px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #AE7C78;
+}
+
+.marina {
+    position: absolute;
+    width: 68px;
+    height: 20px;
+    left: 280px;
+    top: 3570px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #AE7C78;
+}
+
+.attentive-florists {
+    position: absolute;
+    width: 300px;
+    height: 80px;
+    left: 570px;
+    top: 3469px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #AE7C78;
+}
+
+.tatiana {
+    position: absolute;
+    width: 66px;
+    height: 20px;
+    left: 687px;
+    top: 3570px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #AE7C78;
+}
+
+.all-price {
+    position: absolute;
+    width: 300px;
+    height: 80px;
+    left: 976px;
+    top: 3469px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #AE7C78;
+}
+
+.olga {
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    left: 1101px;
+    top: 3570px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #AE7C78;
+}
+
+
+.map {
+    position: absolute;
+    width: 1440px;
+    height: 644.1px;
+    left: 0px;
+    top: 3729px;
+}
+
+.wait {
+    position: absolute;
+    width: 234px;
+    height: 48px;
+    left: 257px;
+    top: 3821px;
+
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+
+    color: #AE7C78;
+}
+
+.information {
+    list-style: none;
+}
+
+.contact-info {
+    position: absolute;
+    width: 159.18px;
+    height: 11.6px;
+    left: 257px;
+    top: 3911.06px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #AE7C78;
+}
+
+.address {
+    position: absolute;
+    width: 243px;
+    height: 40px;
+    left: 257px;
+    top: 3943.74px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #AE7C78;
+}
+
+.work {
+    position: absolute;
+    width: 127px;
+    height: 20px;
+    left: 257px;
+    top: 4015.7px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #AE7C78;
+}
+
+.week-time {
+    position: absolute;
+    width: 197px;
+    height: 20px;
+    left: 257px;
+    top: 4049.38px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #AE7C78;
+}
+
+.call-us {
+    position: absolute;
+    width: 131px;
+    height: 20px;
+    left: 257px;
+    top: 4098.98px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #AE7C78;
+}
+
+.phone {
+    position: absolute;
+    width: 144px;
+    height: 20px;
+    left: 257px;
+    top: 4132.66px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #AE7C78;
+}
+
+.write-us {
+    position: absolute;
+    width: 134.93px;
+    height: 11.6px;
+    left: 257px;
+    top: 4187.26px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #AE7C78;
+}
+
+.mail {
+    position: absolute;
+    width: 141px;
+    height: 20px;
+    left: 257px;
+    top: 4215.94px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #AE7C78;
+}
+
+.footer-logo {
+    position: absolute;
+    left: 1.67%;
+    right: 20.23%;
+    top: 684.47%;
+    bottom: 26.59%;
+    background: #FFFFFF;
+}
+
+.footer-menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    width: 1440px;
+    height: 97px;
+    left: 0px;
+    top: 4373px;
+}
+
+.icons {
+    list-style: none;
+}
