@@ -1,3 +1,64 @@
+body {
+    font-family: "Montserrat", Tahoma, sans-serif;
+}
+
+
+#page {
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "intro intro intro"
+        "popular popular popular"
+        "preview preview preview"
+        "discount discount discount"
+        "steps     steps   steps"
+        "news     news     news"
+        "reviews  reviews reviews"
+        "contacts contacts contacts"
+        "footer   footer   footer";
+}
+
+
+header {
+    grid-area: header;
+}
+
+.intro {
+    grid-area: intro;
+}
+
+.popular {
+    grid-area: popular;
+}
+
+.preview {
+    grid-area: preview;
+}
+
+.discount {
+    grid-area: discount;
+}
+
+.steps {
+    grid-area: steps;
+}
+
+.news {
+    grid-area: news;
+}
+
+.reviews {
+    grid-area: reviews;
+}
+
+.contacts {
+    grid-area: contacts;
+}
+
+footer {
+    grid-area: footer;
+}
+
 .logo {
 
     position: absolute;
@@ -7,9 +68,6 @@
     bottom: 26.59%;
 
 }
-
-
-
 
 a {
 
@@ -22,7 +80,6 @@ a {
     color: #AE7C78;
 }
 
-
 .menu {
 
     display: flex;
@@ -31,14 +88,11 @@ a {
 
 }
 
-
 .visually-hidden {
 
     position: absolute;
     clip: rect(0 0 0 0);
 }
-
-
 
 .bouquet {
     position: absolute;
@@ -62,20 +116,17 @@ a {
 
 }
 
-
 .original {
     position: absolute;
     width: 384px;
     height: 58px;
     left: 120px;
     top: 313px;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 29px;
-
     color: #AE7C78;
 }
 
@@ -85,7 +136,6 @@ a {
     height: 20px;
     left: 190px;
     top: 465px;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -93,7 +143,6 @@ a {
     line-height: 20px;
     color: #FFFFFF;
     background-color: #AE7C78;
-
 }
 
 .before-sending {
@@ -104,7 +153,6 @@ a {
     top: 230px;
     border-radius: 10px;
 }
-
 
 .ready-bouqet {
 
@@ -121,7 +169,6 @@ a {
     height: 20px;
     left: 222px;
     top: 682px;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
@@ -136,13 +183,11 @@ a {
     height: 40px;
     left: 180px;
     top: 710px;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;
-
     color: #AE7C78;
 }
 
@@ -152,7 +197,6 @@ a {
     height: 20px;
     left: 628px;
     top: 682px;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
@@ -167,7 +211,6 @@ a {
     height: 20px;
     left: 590px;
     top: 710px;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
@@ -182,7 +225,6 @@ a {
     height: 20px;
     left: 1035px;
     top: 682px;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
@@ -212,17 +254,14 @@ a {
     height: 48px;
     left: 540px;
     top: 870px;
-
     font-family: Playfair Display;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
     line-height: 48px;
     letter-spacing: 0.02em;
-
     color: #AE7C78;
 }
-
 
 .tenderness {
     position: absolute;
@@ -230,13 +269,11 @@ a {
     height: 29px;
     left: 323px;
     top: 981px;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 29px;
-
     color: #AE7C78;
 }
 
@@ -246,13 +283,11 @@ a {
     height: 40px;
     left: 323px;
     top: 1030px;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;
-
     color: #AE7C78;
 }
 
@@ -262,7 +297,6 @@ a {
     height: 20px;
     left: 324px;
     top: 1094px;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -277,7 +311,6 @@ a {
     height: 29px;
     left: 324px;
     top: 1138px;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
@@ -292,7 +325,6 @@ a {
     height: 20px;
     left: 429px;
     top: 1261px;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -301,7 +333,6 @@ a {
     color: #FFFFFF;
     background-color: #AE7C78;
 }
-
 
 .back {
     position: absolute;
@@ -319,7 +350,6 @@ a {
     top: 1416px;
 }
 
-
 .tender-bouqet {
     position: absolute;
     width: 387px;
@@ -329,10 +359,8 @@ a {
 }
 
 .bouquet-assortment {
-
     list-style: none;
 }
-
 
 .wedding-bouqet {
     position: absolute;
@@ -340,7 +368,6 @@ a {
     height: 48px;
     left: 142px;
     top: 1670px;
-
     font-family: Playfair Display;
     font-style: normal;
     font-weight: bold;
@@ -351,14 +378,12 @@ a {
     color: black;
 }
 
-
 .bride-bouqet {
     position: absolute;
     width: 155px;
     height: 20px;
     left: 237px;
     top: 1735px;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -373,7 +398,6 @@ a {
     height: 48px;
     left: 552px;
     top: 1679px;
-
     font-family: Playfair Display;
     font-style: normal;
     font-weight: bold;
@@ -384,14 +408,12 @@ a {
     color: black;
 }
 
-
 .season-peonies {
     position: absolute;
     width: 252px;
     height: 20px;
     left: 594px;
     top: 1745px;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -400,14 +422,12 @@ a {
     color: black;
 }
 
-
 .bouqet-select {
     position: absolute;
     width: 273px;
     height: 48px;
     left: 990px;
     top: 1679px;
-
     font-family: Playfair Display;
     font-style: normal;
     font-weight: bold;
@@ -424,7 +444,6 @@ a {
     height: 20px;
     left: 1030px;
     top: 1745px;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -433,14 +452,12 @@ a {
     color: black;
 }
 
-
 .discount-first {
     position: absolute;
     width: 488px;
     height: 118px;
     left: 222px;
     top: 2058px;
-
     font-family: Playfair Display;
     font-style: normal;
     font-weight: normal;
@@ -449,21 +466,18 @@ a {
     letter-spacing: 0.02em;
 }
 
-
 .first-order {
     position: absolute;
     width: 387px;
     height: 145px;
     left: 222px;
     top: 2200px;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 29px;
 }
-
 
 .beautiful-bouqet {
     position: absolute;
@@ -474,14 +488,12 @@ a {
     border-radius: 0px;
 }
 
-
 .four-steps {
     position: absolute;
     width: 509px;
     height: 48px;
     left: 465px;
     top: 2489px;
-
     font-family: Playfair Display;
     font-style: normal;
     font-weight: bold;
@@ -492,14 +504,12 @@ a {
     color: #AE7C78;
 }
 
-
 .booking {
     position: absolute;
     width: 48px;
     height: 20px;
     left: 239px;
     top: 2634px;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
@@ -514,7 +524,6 @@ a {
     height: 40px;
     left: 120px;
     top: 2662px;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -525,7 +534,6 @@ a {
 }
 
 .details-clarify {
-
     position: absolute;
     width: 165px;
     height: 20px;
@@ -545,7 +553,6 @@ a {
     height: 60px;
     left: 425px;
     top: 2661px;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -618,14 +625,12 @@ a {
     list-style: none;
 }
 
-
 .follow-news {
     position: absolute;
     width: 487px;
     height: 96px;
     left: 120px;
     top: 2871px;
-
     font-family: Playfair Display;
     font-style: normal;
     font-weight: bold;
@@ -635,14 +640,12 @@ a {
     color: #AE7C78;
 }
 
-
 .subscribe {
     position: absolute;
     width: 387px;
     height: 87px;
     left: 120px;
     top: 3007px;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -651,7 +654,6 @@ a {
     color: #AE7C78;
 }
 
-
 .samantha {
     position: absolute;
     width: 285px;
@@ -659,7 +661,6 @@ a {
     left: 628px;
     top: 2801px;
 }
-
 
 .insang {
     position: absolute;
@@ -686,14 +687,12 @@ a {
     top: 3134px;
 }
 
-
 .comments {
     position: absolute;
     width: 152px;
     height: 48px;
     left: 644px;
     top: 3381px;
-
     font-family: Playfair Display;
     font-style: normal;
     font-weight: bold;
@@ -704,14 +703,12 @@ a {
     color: #AE7C78;
 }
 
-
 .liked {
     position: absolute;
     width: 300px;
     height: 80px;
     left: 164px;
     top: 3470px;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -727,7 +724,6 @@ a {
     height: 20px;
     left: 280px;
     top: 3570px;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
@@ -757,7 +753,6 @@ a {
     height: 20px;
     left: 687px;
     top: 3570px;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
@@ -772,7 +767,6 @@ a {
     height: 80px;
     left: 976px;
     top: 3469px;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -788,7 +782,6 @@ a {
     height: 20px;
     left: 1101px;
     top: 3570px;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
@@ -796,7 +789,6 @@ a {
     line-height: 20px;
     color: #AE7C78;
 }
-
 
 .map {
     position: absolute;
@@ -812,7 +804,6 @@ a {
     height: 48px;
     left: 257px;
     top: 3821px;
-
     font-family: Playfair Display;
     font-style: normal;
     font-weight: bold;
@@ -820,7 +811,6 @@ a {
     line-height: 48px;
     display: flex;
     align-items: center;
-
     color: #AE7C78;
 }
 
@@ -833,8 +823,7 @@ a {
     width: 159.18px;
     height: 11.6px;
     left: 257px;
-    top: 3911.06px;
-
+    top: 391.06px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -851,7 +840,6 @@ a {
     height: 40px;
     left: 257px;
     top: 3943.74px;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
@@ -868,7 +856,6 @@ a {
     height: 20px;
     left: 257px;
     top: 4015.7px;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -885,7 +872,6 @@ a {
     height: 20px;
     left: 257px;
     top: 4049.38px;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
@@ -902,7 +888,6 @@ a {
     height: 20px;
     left: 257px;
     top: 4098.98px;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -919,7 +904,6 @@ a {
     height: 20px;
     left: 257px;
     top: 4132.66px;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
@@ -936,7 +920,6 @@ a {
     height: 11.6px;
     left: 257px;
     top: 4187.26px;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -953,7 +936,6 @@ a {
     height: 20px;
     left: 257px;
     top: 4215.94px;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
