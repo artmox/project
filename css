@@ -2,77 +2,33 @@ body {
     font-family: "Montserrat", Tahoma, sans-serif;
 }
 
-
-#page {
-    display: grid;
-    grid-template-areas:
-        "header header header"
-        "intro intro intro"
-        "popular popular popular"
-        "preview preview preview"
-        "discount discount discount"
-        "steps     steps   steps"
-        "news     news     news"
-        "reviews  reviews reviews"
-        "contacts contacts contacts"
-        "footer   footer   footer";
+*,
+::after,
+::before {
+    box-sizing: border-box;
 }
 
 
 header {
-    grid-area: header;
-}
-
-.intro {
-    grid-area: intro;
-}
-
-.popular {
-    grid-area: popular;
-}
-
-.preview {
-    grid-area: preview;
-}
-
-.discount {
-    grid-area: discount;
-}
-
-.steps {
-    grid-area: steps;
-}
-
-.news {
-    grid-area: news;
-}
-
-.reviews {
-    grid-area: reviews;
-}
-
-.contacts {
-    grid-area: contacts;
-}
-
-footer {
-    grid-area: footer;
-}
-
-.logo {
-
     position: absolute;
-    left: 47.64%;
-    right: 36.67%;
-    top: 1.76%;
-    bottom: 26.59%;
+    margin-top: 35px;
+    border-top: 1px solid #AE7C78;
+    border-bottom: 1px solid #AE7C78;
+    padding: 20px;
+    min-width: 1440px;
 
 }
 
-a {
+.logo-img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 33px;
+}
 
+.logo-img {
     text-decoration: none;
-    font-family: Montserrat;
+    font-family: "Montserrat", Tahoma, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -80,12 +36,32 @@ a {
     color: #AE7C78;
 }
 
-.menu {
+.header-items:nth-child(3n + 3) {
+    margin-top: auto;
+    margin-bottom: auto;
+    display: list-item;
+
+}
+
+menu {
+    padding: 0;
+    margin: 0;
+
+}
+
+.menu li {
 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     list-style: none;
+    flex-wrap: no-wrap;
+    align-items: center;
+    align-content: center;
 
+}
+
+.reviews {
+    margin-left: 20px;
 }
 
 .visually-hidden {
@@ -99,21 +75,17 @@ a {
     width: 384px;
     height: 118px;
     left: 120px;
-    top: 130px;
-
-    font-family: Playfair Display;
+    top: 140px;
+    font-family: "Playfair Display", Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 44px;
     line-height: 59px;
-
     color: #AE7C78;
 }
 
 .italic {
-
     font-style: italic;
-
 }
 
 .original {
@@ -121,8 +93,8 @@ a {
     width: 384px;
     height: 58px;
     left: 120px;
-    top: 313px;
-    font-family: Montserrat;
+    top: 290px;
+    font-family: "Montserrat", Tahoma, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -131,36 +103,69 @@ a {
 }
 
 .button {
-    position: absolute;
-    width: 146px;
-    height: 20px;
-    left: 190px;
-    top: 465px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 20px;
-    color: #FFFFFF;
-    background-color: #AE7C78;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 36px;
+    min-height: 80px;
+    min-width: 285px;
+    text-align: center;
+    background: #D89999;
+    border-radius: 40px;
+    margin-top: -25px;
+    margin-left: -70px;
+
 }
 
-.before-sending {
+img.before-sending {
     position: absolute;
-    width: 386px;
-    height: 404px;
-    left: 38%;
+    min-width: 386px;
+    min-height: 404px;
+    left: 527px;
     top: 230px;
     border-radius: 10px;
 }
 
-.ready-bouqet {
+img.ready-bouqet {
+    position: absolute;
+    min-width: 387px;
+    min-height: 420px;
+    left: 933px;
+    top: 172px;
+}
+
+#delivery-img {
+    position: absolute;
+    width: 82px;
+    height: 52px;
+    left: 120px;
+    top: 682px;
+    display: inline-block;
+    background-image: url('/images/Group9.svg');
+}
+
+#fresh-bouquet {
 
     position: absolute;
-    width: 387px;
-    height: 420px;
-    left: 70%;
-    top: 172px;
+    width: 52px;
+    height: 52px;
+    left: 556px;
+    top: 682px;
+    background-image: url('/images/bouquet1.svg');
+}
+
+#photo {
+    width:
+        58.6px;
+    height:
+        52px;
+    position: absolute;
+    left: 956px;
+    right: 425.4px;
+    top: 682px;
+    bottom: 83.58%;
+    background-image: url('/images/Group2.svg');
+
 }
 
 .fast-delivery {
@@ -169,12 +174,20 @@ a {
     height: 20px;
     left: 222px;
     top: 682px;
-    font-family: Montserrat;
+    font-family: "Montserrat", Tahoma, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
     color: #AE7C78;
+}
+
+.lorry {
+    position: absolute;
+    width: 82px;
+    height: 52px;
+    left: 120px;
+    top: 682px;
 }
 
 .craft-bouquet {
@@ -183,12 +196,28 @@ a {
     height: 40px;
     left: 180px;
     top: 710px;
-    font-family: Montserrat;
+    font-family: "Montserrat", Tahoma, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;
     color: #AE7C78;
+}
+
+.fresh-bouquet {
+    position: absolute;
+    left: 41.70%;
+    right: 25.43%;
+    top: 682px;
+    bottom: 0%;
+}
+
+.photo {
+    position: absolute;
+    left: 70.70%;
+    right: 29.54%;
+    top: 682px;
+    bottom: 83.58%;
 }
 
 .fresh-flower {
@@ -197,7 +226,7 @@ a {
     height: 20px;
     left: 628px;
     top: 682px;
-    font-family: Montserrat;
+    font-family: "Montserrat", Tahoma, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -211,7 +240,7 @@ a {
     height: 20px;
     left: 590px;
     top: 710px;
-    font-family: Montserrat;
+    font-family: "Montserrat", Tahoma, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -225,7 +254,7 @@ a {
     height: 20px;
     left: 1035px;
     top: 682px;
-    font-family: Montserrat;
+    font-family: "Montserrat", Tahoma, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -239,8 +268,7 @@ a {
     height: 60px;
     left: 995px;
     top: 710px;
-
-    font-family: Montserrat;
+    font-family: "Montserrat", Tahoma, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -253,8 +281,8 @@ a {
     width: 371px;
     height: 48px;
     left: 540px;
-    top: 870px;
-    font-family: Playfair Display;
+    top: 840px;
+    font-family: "Playfair Display", Arial, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -268,8 +296,8 @@ a {
     width: 228px;
     height: 29px;
     left: 323px;
-    top: 981px;
-    font-family: Montserrat;
+    top: 955px;
+    font-family: "Montserrat", Tahoma, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -282,8 +310,8 @@ a {
     width: 387px;
     height: 40px;
     left: 323px;
-    top: 1030px;
-    font-family: Montserrat;
+    top: 1015px;
+    font-family: "Montserrat", Tahoma, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -295,9 +323,9 @@ a {
     position: absolute;
     width: 85px;
     height: 20px;
-    left: 324px;
-    top: 1094px;
-    font-family: Montserrat;
+    left: 325px;
+    top: 1080px;
+    font-family: "Montserrat", Tahoma, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -309,9 +337,9 @@ a {
     position: absolute;
     width: 118px;
     height: 29px;
-    left: 324px;
-    top: 1138px;
-    font-family: Montserrat;
+    left: 330px;
+    top: 1115px;
+    font-family: "Montserrat", Tahoma;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -320,25 +348,30 @@ a {
 }
 
 .order {
-    position: absolute;
-    width: 73px;
-    height: 20px;
-    left: 429px;
-    top: 1261px;
-    font-family: Montserrat;
+    display: flex;
+    min-width: 285px;
+    min-height: 80px;
+    font-family: "Montserrat", Tahoma, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;
     color: #FFFFFF;
-    background-color: #AE7C78;
+    background: #AE7C78;
+    border-radius: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25px;
+    margin-left: -105px;
+
 }
 
 .back {
     position: absolute;
     width: 50px;
     height: 0px;
-    left: 800px;
+    left: 660px;
     top: 1416px;
 }
 
@@ -346,7 +379,7 @@ a {
     position: absolute;
     width: 50px;
     height: 0px;
-    left: 900px;
+    left: 730px;
     top: 1416px;
 }
 
@@ -358,24 +391,72 @@ a {
     top: 954px;
 }
 
+.slider_controls {
+    display: flex;
+    justify-content: center;
+}
+
+.arrow.arrow-left {
+    position: absolute;
+    width: 50px;
+    height: 15px;
+    left: 729px;
+    top: 1408px;
+    border: 2px solid #AE7C78;
+    box-sizing: border-box;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    cursor: pointer;
+    border: none;
+    background-image: url('/images/Arrow2.svg');
+    background-position: 0 0;
+    background-color: white;
+}
+
+.arrow.arrow-right {
+    position: absolute;
+    width: 50px;
+    height: 15px;
+    left: 658px;
+    top: 1408px;
+    border: 2px solid #AE7C78;
+    box-sizing: border-box;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    background-image: url('/images/Arrow1.svg');
+    cursor: pointer;
+    background-color: white;
+    background-position: 0 0;
+    border: none;
+}
+
 .bouquet-assortment {
     list-style: none;
 }
 
+.wedding {
+    position: absolute;
+    width: 387px;
+    height: 442px;
+    left: 121px;
+    top: 1496px;
+    background: linear-gradient(0deg, rgba(174, 124, 120, 0.6), rgba(174, 124, 120, 0.6)), url('/images/sammi.png') no-repeat;
+    border-radius: 10px;
+}
+
 .wedding-bouqet {
+    color: white;
     position: absolute;
     width: 343px;
     height: 48px;
     left: 142px;
-    top: 1670px;
-    font-family: Playfair Display;
+    top: 183px;
+    font-family: "Playfair Display", Arial, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
     line-height: 48px;
     text-align: center;
     letter-spacing: 0.02em;
-    color: black;
+
 }
 
 .bride-bouqet {
@@ -383,13 +464,23 @@ a {
     width: 155px;
     height: 20px;
     left: 237px;
-    top: 1735px;
-    font-family: Montserrat;
+    top: 1720px;
+    font-family: "Montserrat", Tahoma, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;
-    color: black;
+    color: #FFFFFF;
+}
+
+.peon {
+    position: absolute;
+    width: 387px;
+    height: 442px;
+    left: 527px;
+    top: 1496px;
+    background: linear-gradient(0deg, rgba(174, 124, 120, 0.6), rgba(174, 124, 120, 0.6)), url('/images/fresh.png') no-repeat;
+    border-radius: 10px;
 }
 
 .peonies {
@@ -397,29 +488,47 @@ a {
     width: 337px;
     height: 48px;
     left: 552px;
-    top: 1679px;
-    font-family: Playfair Display;
+    top: 1639px;
+    font-family: "Playfair Display", Arial, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
     line-height: 48px;
     text-align: center;
     letter-spacing: 0.02em;
-    color: black;
+    color: #FFFFFF;
 }
 
 .season-peonies {
     position: absolute;
     width: 252px;
     height: 20px;
-    left: 594px;
-    top: 1745px;
-    font-family: Montserrat;
+    left: 600px;
+    top: 1720px;
+    font-family: "Montserrat", Tahoma, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;
-    color: black;
+    color: #FFFFFF;
+}
+
+.img-peonies {
+    position: absolute;
+    width: 387px;
+    height: 442px;
+    left: 527px;
+    top: 1496px;
+}
+
+.bs {
+    position: absolute;
+    width: 387px;
+    height: 442px;
+    left: 933px;
+    top: 1496px;
+    background: linear-gradient(0deg, rgba(174, 124, 120, 0.6), rgba(174, 124, 120, 0.6)), url('/images/alyssa.png') no-repeat;
+    border-radius: 10px;
 }
 
 .bouqet-select {
@@ -427,15 +536,15 @@ a {
     width: 273px;
     height: 48px;
     left: 990px;
-    top: 1679px;
-    font-family: Playfair Display;
+    top: 1640px;
+    font-family: "Playfair Display", Arial, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
     line-height: 48px;
     text-align: center;
     letter-spacing: 0.02em;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .assortment {
@@ -443,13 +552,30 @@ a {
     width: 194px;
     height: 20px;
     left: 1030px;
-    top: 1745px;
-    font-family: Montserrat;
+    top: 1720px;
+    font-family: "Montserrat", Tahoma, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;
-    color: black;
+    color: #FFFFFF;
+}
+
+.select {
+    position: absolute;
+    width: 387px;
+    height: 442px;
+    left: 933px;
+    top: 1496px;
+}
+
+.disc {
+    position: absolute;
+    width: 1200px;
+    height: 391px;
+    left: 120px;
+    top: 2018px;
+    background: #AE7C78 url('/images/florist.jpg') no-repeat right;
 }
 
 .discount-first {
@@ -457,13 +583,14 @@ a {
     width: 488px;
     height: 118px;
     left: 222px;
-    top: 2058px;
-    font-family: Playfair Display;
+    top: 2025px;
+    font-family: Playfair Display, Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 44px;
     line-height: 59px;
     letter-spacing: 0.02em;
+    color: #FFFFFF;
 }
 
 .first-order {
@@ -471,12 +598,13 @@ a {
     width: 387px;
     height: 145px;
     left: 222px;
-    top: 2200px;
-    font-family: Montserrat;
+    top: 2175px;
+    font-family: "Montserrat", Tahoma, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 29px;
+    color: #FFFFFF;
 }
 
 .beautiful-bouqet {
@@ -493,8 +621,8 @@ a {
     width: 509px;
     height: 48px;
     left: 465px;
-    top: 2489px;
-    font-family: Playfair Display;
+    top: 2550px;
+    font-family: "Playfair Display", Arial, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -502,6 +630,7 @@ a {
     letter-spacing: 0.02em;
     white-space: nowrap;
     color: #AE7C78;
+    margin-top: 30px;
 }
 
 .booking {
@@ -509,8 +638,8 @@ a {
     width: 48px;
     height: 20px;
     left: 239px;
-    top: 2634px;
-    font-family: Montserrat;
+    top: 2620px;
+    font-family: "Montserrat", Tahoma, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -523,14 +652,26 @@ a {
     width: 285px;
     height: 40px;
     left: 120px;
-    top: 2662px;
-    font-family: Montserrat;
+    top: 2500px;
+    font-family: "Montserrat", Tahoma, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;
     text-align: center;
     color: #AE7C78;
+
+}
+
+img.img-booking {
+
+    position: absolute;
+    left: 255px;
+    right: 1143px;
+    top: 0;
+    bottom: 1844px;
+    min-width: 66px;
+    min-height: 52px;
 }
 
 .details-clarify {
@@ -538,8 +679,8 @@ a {
     width: 165px;
     height: 20px;
     left: 485px;
-    top: 2633px;
-    font-family: Montserrat;
+    top: 2620px;
+    font-family: "Montserrat", Tahoma, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -552,8 +693,8 @@ a {
     width: 285px;
     height: 60px;
     left: 425px;
-    top: 2661px;
-    font-family: Montserrat;
+    top: 2647px;
+    font-family: "Montserrat", Tahoma, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -562,13 +703,23 @@ a {
     color: #AE7C78;
 }
 
+img.clarify {
+    position: absolute;
+    left: 615px;
+    right: 853px;
+    top: 0;
+    bottom: 1845px;
+    min-height: 52px;
+    min-width: 37px;
+}
+
 .payment {
     position: absolute;
     width: 62px;
     height: 20px;
     left: 842px;
-    top: 2633px;
-    font-family: Montserrat;
+    top: 2615px;
+    font-family: "Montserrat", Tahoma, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -581,14 +732,24 @@ a {
     width: 285px;
     height: 40px;
     left: 730px;
-    top: 2661px;
-    font-family: Montserrat;
+    top: 2645px;
+    font-family: "Montserrat", Tahoma, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;
     text-align: center;
     color: #AE7C78;
+}
+
+img.img-pay {
+    position: absolute;
+    left: 930px;
+    right: 532px;
+    top: 0;
+    bottom: 1845px;
+    min-width: 69px;
+    min-height: 52px;
 }
 
 .courier {
@@ -596,13 +757,14 @@ a {
     width: 78px;
     height: 20px;
     left: 1139px;
-    top: 2633px;
-    font-family: Montserrat;
+    top: 2620px;
+    font-family: "Montserrat", Tahoma, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
     color: #AE7C78;
+    margin-top: -40px;
 }
 
 .courier-call {
@@ -610,28 +772,96 @@ a {
     width: 285px;
     height: 60px;
     left: 1035px;
-    top: 2661px;
-
-    font-family: Montserrat;
+    top: 2645px;
+    font-family: "Montserrat", Tahoma, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;
     text-align: center;
     color: #AE7C78;
+    margin-top: -40px;
+}
+
+.lorry {
+    position: absolute;
+    width: 82.21px;
+    height: 52px;
+    left: 1136px;
+    top: 2573px;
 }
 
 .order-steps {
     list-style: none;
+    position: relative;
 }
+
+.img-booking {
+    position: absolute;
+    margin-top: 2500px;
+}
+
+.booking {
+    position: absolute;
+    width: 48px;
+    height: 20px;
+    margin-top: -50px;
+    margin-left: 25px;
+
+}
+
+.booking-select {
+    margin-top: -40px;
+    margin-left: 25px;
+
+}
+
+.clarify {
+    margin-top: 2500px;
+    margin-left: -40px;
+
+}
+
+.details-clarify {
+    margin-top: -40px;
+    margin-left: 25px;
+}
+
+.florist-call {
+    margin-top: -40px;
+    margin-left: 25px;
+}
+
+.img-pay {
+    position: relative;
+    margin-top: 2500px;
+    margin-left: -90px;
+
+}
+
+.payment {
+    margin-top: -40px;
+}
+
+
+.order-pay {
+    margin-top: -40px;
+}
+
+.lorry {
+
+    margin-top: -65px;
+
+}
+
 
 .follow-news {
     position: absolute;
     width: 487px;
     height: 96px;
     left: 120px;
-    top: 2871px;
-    font-family: Playfair Display;
+    top: 2842px;
+    font-family: "Playfair Display", Tahoma, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -645,8 +875,8 @@ a {
     width: 387px;
     height: 87px;
     left: 120px;
-    top: 3007px;
-    font-family: Montserrat;
+    top: 2985px;
+    font-family: "Montserrat", Tahoma, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -679,7 +909,6 @@ a {
 }
 
 .social-media {
-    list-style: none;
     position: absolute;
     width: 96.76px;
     height: 20px;
@@ -687,13 +916,47 @@ a {
     top: 3134px;
 }
 
+.inst img {
+    position: absolute;
+    left: 10px;
+    right: 1267.5px;
+    top: 70.11%;
+    bottom: 29.44%;
+}
+
+.facebook img {
+    position: absolute;
+    left: 60px;
+    right: 88.02%;
+    top: 70.11%;
+    bottom: 29.44%;
+}
+
+.twitter img {
+    position: absolute;
+    left: 100%;
+    right: 84.95%;
+    top: 70.11%;
+    bottom: 29.44%;
+}
+
+.sect-reviews {
+    position: absolute;
+    width: 1200px;
+    height: 308px;
+    left: 120px;
+    top: 3341px;
+    border: 1px solid #AE7C78;
+    box-sizing: border-box;
+}
+
 .comments {
     position: absolute;
     width: 152px;
     height: 48px;
     left: 644px;
-    top: 3381px;
-    font-family: Playfair Display;
+    top: 3350px;
+    font-family: "Playfair Display", Tahoma, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -708,8 +971,8 @@ a {
     width: 300px;
     height: 80px;
     left: 164px;
-    top: 3470px;
-    font-family: Montserrat;
+    top: 3455px;
+    font-family: "Montserrat", Tahoma, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -723,8 +986,8 @@ a {
     width: 68px;
     height: 20px;
     left: 280px;
-    top: 3570px;
-    font-family: Montserrat;
+    top: 3567px;
+    font-family: "Montserrat", Tahoma, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -737,8 +1000,8 @@ a {
     width: 300px;
     height: 80px;
     left: 570px;
-    top: 3469px;
-    font-family: Montserrat;
+    top: 3455px;
+    font-family: "Montserrat", Tahoma, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -752,8 +1015,8 @@ a {
     width: 66px;
     height: 20px;
     left: 687px;
-    top: 3570px;
-    font-family: Montserrat;
+    top: 3567px;
+    font-family: "Montserrat", Tahoma, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -765,9 +1028,9 @@ a {
     position: absolute;
     width: 300px;
     height: 80px;
-    left: 976px;
-    top: 3469px;
-    font-family: Montserrat;
+    left: 985px;
+    top: 3455px;
+    font-family: "Montserrat", Tahoma, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -781,8 +1044,8 @@ a {
     width: 50px;
     height: 20px;
     left: 1101px;
-    top: 3570px;
-    font-family: Montserrat;
+    top: 3567px;
+    font-family: "Montserrat", Tahoma, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -799,48 +1062,51 @@ a {
 }
 
 .wait {
-    position: absolute;
+    position: relative;
     width: 234px;
     height: 48px;
-    left: 257px;
-    top: 3821px;
-    font-family: Playfair Display;
+    font-family: "Playfair Display", Arial, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
     line-height: 48px;
-    display: flex;
-    align-items: center;
     color: #AE7C78;
+    margin-top: 2px;
 }
 
 .information {
     list-style: none;
 }
 
+.cont-info {
+    position: absolute;
+    width: 386px;
+    height: 520px;
+    left: 222px;
+    top: 3781px;
+    background: #F7FAFC;
+    box-shadow: 0px 4px 40px rgba(217, 217, 217, 0.3);
+    border-radius: 12px;
+}
+
 .contact-info {
     position: absolute;
     width: 159.18px;
     height: 11.6px;
-    left: 257px;
-    top: 391.06px;
-    font-family: Montserrat;
+    font-family: "Montserrat", Tahoma, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;
-    display: flex;
-    align-items: center;
     color: #AE7C78;
+    margin-top: 2px;
 }
 
 .address {
     position: absolute;
     width: 243px;
     height: 40px;
-    left: 257px;
-    top: 3943.74px;
-    font-family: Montserrat;
+    font-family: "Montserrat", Tahoma, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -848,15 +1114,14 @@ a {
     display: flex;
     align-items: center;
     color: #AE7C78;
+    margin-top: 2px;
 }
 
 .work {
     position: absolute;
     width: 127px;
     height: 20px;
-    left: 257px;
-    top: 4015.7px;
-    font-family: Montserrat;
+    font-family: "Montserrat", Tahoma, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -864,15 +1129,14 @@ a {
     display: flex;
     align-items: center;
     color: #AE7C78;
+    margin-top: 2px;
 }
 
 .week-time {
     position: absolute;
     width: 197px;
     height: 20px;
-    left: 257px;
-    top: 4049.38px;
-    font-family: Montserrat;
+    font-family: "Montserrat", Tahoma, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -880,15 +1144,14 @@ a {
     display: flex;
     align-items: center;
     color: #AE7C78;
+    margin-top: 2px;
 }
 
 .call-us {
     position: absolute;
     width: 131px;
     height: 20px;
-    left: 257px;
-    top: 4098.98px;
-    font-family: Montserrat;
+    font-family: "Montserrat", Tahoma, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -896,6 +1159,7 @@ a {
     display: flex;
     align-items: center;
     color: #AE7C78;
+    margin-top: 2px;
 }
 
 .phone {
@@ -904,7 +1168,7 @@ a {
     height: 20px;
     left: 257px;
     top: 4132.66px;
-    font-family: Montserrat;
+    font-family: "Montserrat", Tahoma, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -918,9 +1182,7 @@ a {
     position: absolute;
     width: 134.93px;
     height: 11.6px;
-    left: 257px;
-    top: 4187.26px;
-    font-family: Montserrat;
+    font-family: "Montserrat", Tahoma, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -928,6 +1190,7 @@ a {
     display: flex;
     align-items: center;
     color: #AE7C78;
+    margin-top: 2px;
 }
 
 .mail {
@@ -936,7 +1199,7 @@ a {
     height: 20px;
     left: 257px;
     top: 4215.94px;
-    font-family: Montserrat;
+    font-family: "Montserrat", Tahoma, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -946,19 +1209,10 @@ a {
     color: #AE7C78;
 }
 
-.footer-logo {
-    position: absolute;
-    left: 1.67%;
-    right: 20.23%;
-    top: 684.47%;
-    bottom: 26.59%;
-    background: #FFFFFF;
-}
-
-.footer-menu {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
+.footer {
+    padding-top: 24px;
+    padding-bottom: 40px;
+    background-color: #AE7C78;
     position: absolute;
     width: 1440px;
     height: 97px;
@@ -966,6 +1220,68 @@ a {
     top: 4373px;
 }
 
-.icons {
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
     list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-link {
+    color: #FFFFFF;
+}
+
+.footer-logo {
+    position: absolute;
+    width: 100px;
+    height: 32.28px;
+    left: 200px;
+    top: 4397px;
+    margin-top: -640px;
+    margin-right: -30px;
+    border-style: none;
+    background-color: #AE7C78;
+}
+
+
+
+.menu-item {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons {
+    position: relative;
+    width: 96.76px;
+    height: 20px;
+    left: auto;
+
+}
+
+.social-link-twit {
+    position: absolute;
+    left: 90.21%;
+    right: 8%;
+    top: 100.5%;
+    bottom: 1.05%;
+    margin-top: -6px;
 }
